@@ -1,3 +1,8 @@
+export interface CustomerOrder {
+  getName(): string;
+  getID(): string;
+}
+
 export interface IndividualCustomerProtocol {
   firstName: string;
   lastName: string;
